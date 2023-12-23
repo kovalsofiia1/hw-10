@@ -31,7 +31,6 @@ const approve = (message) => {
             position: 'topRight',
             messageColor: 'white',
             backgroundColor: 'green',
-            
         });
 }
 
