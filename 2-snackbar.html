@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>Page 3</title>
+    <script type="module" crossorigin src="/hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/hw-10/assets/modulepreload-polyfill-ec808ebb.js">
+    <link rel="modulepreload" crossorigin href="/hw-10/assets/vendor-651d7991.js">
+    <link rel="stylesheet" href="/hw-10/assets/vendor-80d0dc0f.css">
+    <link rel="stylesheet" href="/hw-10/assets/2-snackbar-ab051650.css">
+  </head>
+  <body>
+    <section class="contents">
+      <a href="./index.html">Go to home</a>
+      <form class="form">
+        <label class="delay">
+          Delay (ms)
+          <input type="number" name="delay" class="input-delay" required />
+        </label>
+
+        <fieldset class="set">
+          <legend>State</legend>
+          <label>
+            <input
+              type="radio"
+              name="state"
+              value="fulfilled"
+              class="radio radio-true"
+              required
+            />
+            Fulfilled
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="state"
+              value="rejected"
+              class="radio"
+              required
+            />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button class="submit-btn" type="submit">Create notification</button>
+      </form>
+    </section>
+    
+  </body>
+</html>
